@@ -10,20 +10,20 @@ const Header = () => {
   const { isOpen, openDrawer, closeDrawer } = useDrawer();
 
   return (
-    <header className="bg-tomytex-primary text-white p-4 w-full">
+    <header className="bg-tomytex-secondary text-white p-4 w-full shadow-md h-[90px]">
       <nav className="container mx-auto flex justify-between items-center">
-        <div className="flex items-center gap-3">
-          <Logo />
+        <div className="flex items-center gap-3 justify-between w-full">
+          <Logo clickable />
           <div className="hidden md:flex space-x-4">
             <AppMenu
               mode="horizontal"
-              className="flex text-sm p-4 bg-tomytex-primary text-tomytex-secondary border-none"
+              className="flex text-sm p-4 bg-tomytex-secondary text-tomytex-primary border-none"
             />
           </div>
         </div>
         <div className="md:hidden flex items-center gap-3">
           <button onClick={openDrawer}>
-            <MenuOutlined className="text-xl text-tomytex-secondary" />
+            <MenuOutlined className="text-xl text-tomytex-primary" />
           </button>
           <Drawer
             title={<Logo reversed />}

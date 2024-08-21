@@ -19,8 +19,9 @@
 }
 
 * {
-  font-family: "EB Garamond", serif;
-}
+  font-family: 'Raleway', sans-serif;
+} 
+
 
 body {
   color: rgb(var(--foreground-rgb));
@@ -49,8 +50,4 @@ body {
   > .ant-menu.ant-menu-horizontal
   > .ant-menu-submenu-selected {
   background: none;
-}
-
-.ant-menu-item-selected {
-  color: red !important;
 }

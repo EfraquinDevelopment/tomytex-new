@@ -26,6 +26,6 @@ export const generateMenuItems = (
         {item.title}
       </Link>
     ),
-    style: { color: reversed ? "black" : "#F5F5F0" },
+    style: { color: reversed ? "black" : "#d91817",fontWeight: "bold", fontSize: "16px" },
   }));
 };

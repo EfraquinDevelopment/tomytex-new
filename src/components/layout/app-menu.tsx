@@ -12,7 +12,14 @@ const AppMenu = ({ reversed = false, ...menuProps }: Props) => {
 
   const menuItems = useMemo(() => generateMenuItems(reversed), []);
 
-  return <Menu activeKey={pathname} items={menuItems} {...menuProps} />;
+  return (
+    <Menu
+      style={{ border: "none" }}
+      activeKey={pathname}
+      items={menuItems}
+      {...menuProps}
+    />
+  );
 };
 
 export default AppMenu;
