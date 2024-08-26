@@ -1,0 +1,10 @@
+{
+    "pageTitle": "Contáctanos",
+    "contactFormTitle": "Envíanos un Mensaje",
+    "contactInformation":{
+        "title": "Información de Contacto",
+        "address": "123 Calle Principal, Ciudad Principal, 12345",
+        "phone": "123-456-7890",
+        "email": "info@tomytex.com" 
+    }
+}

@@ -51,3 +51,14 @@ body {
   > .ant-menu-submenu-selected {
   background: none;
 }
+
+.header-nav-item {
+  font-size: 14px;
+  font-weight: 500;
+  color: #6b7280;
+  transition: color 0.3s;
+}
+
+.header-nav-item:hover {
+  @apply text-black;
+}

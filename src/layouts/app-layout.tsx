@@ -1,3 +1,4 @@
+import Footer from "@/components/layout/footer";
 import Header from "@/components/layout/header";
 import { ReactNode } from "react";
 
@@ -6,12 +7,10 @@ type AppLayoutProps = {
 };
 const AppLayout = ({ children }: AppLayoutProps) => {
   return (
-    <div className="flex flex-col min-h-screen">
-        <Header />
-      <main className="flex-grow mx-auto">{children}</main>
-      <footer className="w-full bg-tomytex-secondary text-tomytex-primary text-center p-4">
-        © 2024 MyApp. Todos los derechos reservados.
-      </footer>
+    <div className="flex flex-col min-h-screen relative">
+      <Header />
+      <main className="flex-grow w-full mx-auto">{children}</main>
+      <Footer />
     </div>
   );
 };

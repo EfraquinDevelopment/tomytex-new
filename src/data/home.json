@@ -1,0 +1,43 @@
+{
+  "homeBanner": {
+    "title": "Tomytex",
+    "description": "Creando Excelencia en Telas Desde 1975",
+    "buttonText": "Explora Nuestras Telas"
+  },
+  "fabricsSection": {
+    "title": "Nuestras Telas",
+    "buttonText": "Ver Todas las Telas",
+    "fabrics": [
+      {
+        "id": 1,
+        "name": "Algodón",
+        "description": "Telas de algodon premium para una calidad y comodidad inigualables.",
+        "callToAction": "/telas",
+        "mediaType": "image"
+      },
+      {
+        "id": 2,
+        "name": "Seda",
+        "description": "Telas de seda de la más alta calidad para un toque de lujo en tus prendas.",
+        "callToAction": "/telas",
+        "mediaType": "image"
+      },
+      {
+        "id": 3,
+        "name": "Lino",
+        "description": "Telas de lino de la mejor calidad para un look fresco y elegante.",
+        "callToAction": "/telas",
+        "mediaType": "image"
+      }
+    ]
+  },
+  "ourHistory": {
+    "title": "Nuestra Historia",
+    "description": "Desde 1975, Tomytex ha estado a la vanguardia de la innovación en telas. Lo que comenzó como un pequeño taller textil familiar se ha convertido en un nombre respetado en la industria, conocido por nuestro compromiso con la calidad y la sostenibilidad."
+  },
+  "contactUs": {
+    "title": "Contáctanos",
+    "buttonText": "Ver Contacto",
+    "description": "¿Tienes preguntas sobre nuestras telas o servicios? ¡Estamos aquí para ayudarte!"
+  }
+}

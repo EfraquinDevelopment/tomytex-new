@@ -10,10 +10,11 @@ type Props = MenuProps & {
 const AppMenu = ({ reversed = false, ...menuProps }: Props) => {
   const pathname = usePathname();
 
-  const menuItems = useMemo(() => generateMenuItems(reversed), []);
+  const menuItems = useMemo(() => generateMenuItems(pathname), [pathname]);
 
   return (
     <Menu
+    selectedKeys={[pathname]}
       style={{ border: "none" }}
       activeKey={pathname}
       items={menuItems}
