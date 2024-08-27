@@ -1,8 +1,14 @@
 {
   "logoTagline": "Creando Excelencia en Telas Desde 1975",
-  "rightsText":"© 2023 Tomytex. Todos los derechos reservados.",
+  "rightsText": "© 2023 Tomytex. Todos los derechos reservados.",
   "contactDetails": {
     "facebookUrl": "facebook.com",
     "instagramUrl": "instagram.com"
-  }
+  },
+  "quickLinksTitle": "Enlaces Rápidos",
+  "quickLinks": [
+    { "href": "/", "label": "Inicio" },
+    { "href": "/telas", "label": "Telas" },
+    { "href": "/contacto", "label": "Contacto" }
+  ]
 }

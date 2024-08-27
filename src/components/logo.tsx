@@ -7,6 +7,21 @@ type Props = {
   clickable?: boolean;
 };
 
+export const LogoItem = () => {
+  return (
+    <div className="flex justify-between items-center">
+      <div className="flex items-center space-x-3">
+        <div className="w-12 h-12 bg-gradient-to-br from-red-500 to-red-700 rounded-full flex items-center justify-center">
+          <span className="text-white font-bold text-xl">T</span>
+        </div>
+        <span className="text-red-600 font-bold text-2xl tracking-tight">
+          Tomytex
+        </span>
+      </div>
+    </div>
+  );
+};
+
 export const Logo = ({ reversed = false, clickable = false }: Props) => {
   return (
     <div
@@ -16,22 +31,10 @@ export const Logo = ({ reversed = false, clickable = false }: Props) => {
     >
       {clickable ? (
         <Link href="/" className="hover:text-inherit">
-          <Image
-            src="/img/logo.png"
-            alt="logo"
-            width={256}
-            height={455}
-            className="max-h-[55px] object-cover rounded-sm shadow-md"
-          />
+          <LogoItem />
         </Link>
       ) : (
-        <Image
-          src="/img/logo.png"
-          alt="logo"
-          width={256}
-          height={455}
-          className="max-h-[55px] object-cover rounded-sm shadow-md"
-        />
+        <LogoItem />
       )}
     </div>
   );

@@ -24,7 +24,7 @@ export const generateMenuItems = (
     return {
       key: item.link,
       label: (
-        <div className="header-nav-item">
+        <div className="header-nav-item ">
           <Link
             style={{
               ...(isActive && {
@@ -35,7 +35,7 @@ export const generateMenuItems = (
             href={item.link}
           >
             {item.title}
-          </Link>
+          </Link> 
         </div>
       ),
     };

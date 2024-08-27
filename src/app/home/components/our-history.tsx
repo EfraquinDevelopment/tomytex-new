@@ -4,11 +4,11 @@ import content from "@/data/home.json";
 const OurHistory = () => {
   const { ourHistory } = content;
   return (
-    <section className="mb-16 bg-white p-8 rounded-lg shadow-md">
-      <h2 className="text-3xl text-red-600 text-center font-normal mb-4">
+    <section className="mb-24 bg-white rounded-lg shadow-lg p-8 md:p-12">
+      <h2 className="text-4xl font-bold text-center mb-8 text-gray-800">
         {ourHistory.title}
       </h2>
-      <p className="text-gray-600 max-w-3xl mx-auto text-center leading-relaxed">
+      <p className="text-gray-600 max-w-3xl mx-auto text-center leading-relaxed text-lg">
         {ourHistory.description}
       </p>
     </section>

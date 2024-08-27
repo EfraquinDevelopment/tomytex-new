@@ -1,6 +1,6 @@
 {
   "homeBanner": {
-    "title": "Tomytex",
+    "title": "Descubre la Excelencia en Telas",
     "description": "Creando Excelencia en Telas Desde 1975",
     "buttonText": "Explora Nuestras Telas"
   },
@@ -13,12 +13,14 @@
         "name": "Algodón",
         "description": "Telas de algodon premium para una calidad y comodidad inigualables.",
         "callToAction": "/telas",
+        "imageUrl":"/img/tomytex2.jpg",
         "mediaType": "image"
       },
       {
         "id": 2,
         "name": "Seda",
         "description": "Telas de seda de la más alta calidad para un toque de lujo en tus prendas.",
+        "imageUrl":"/img/tomytex2.jpg",
         "callToAction": "/telas",
         "mediaType": "image"
       },
@@ -26,6 +28,7 @@
         "id": 3,
         "name": "Lino",
         "description": "Telas de lino de la mejor calidad para un look fresco y elegante.",
+        "imageUrl":"/img/tomytex2.jpg",
         "callToAction": "/telas",
         "mediaType": "image"
       }
