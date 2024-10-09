@@ -1,9 +1,12 @@
+import FabricGrid from "@/app/telas/components/fabric-grid";
+import HeroSection from "@/app/telas/components/hero-section";
+
 const Telas = async () => {
   return (
-    <>
-      <h1>Productos</h1>
-      <p>Explora nuestra variedad de productos.</p>
-    </>
+    <main className="isolate">
+      <HeroSection />
+      <FabricGrid />
+    </main>
   );
 };
 
