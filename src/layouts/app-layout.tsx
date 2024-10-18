@@ -1,5 +1,8 @@
+"use client";
+
 import Footer from "@/components/layout/footer";
 import Header from "@/components/layout/header";
+import NextTopLoader from "nextjs-toploader";
 import { ReactNode } from "react";
 
 type AppLayoutProps = {
@@ -7,11 +10,14 @@ type AppLayoutProps = {
 };
 const AppLayout = ({ children }: AppLayoutProps) => {
   return (
-    <div className="flex flex-col min-h-screen relative">
-      <Header />
-      <main className="flex-grow w-full mx-auto">{children}</main>
-      <Footer />
-    </div>
+    <>
+      <NextTopLoader color="#d91817" />
+      <div className="flex flex-col min-h-screen relative">
+        <Header />
+        <main className="flex-grow w-full mx-auto">{children}</main>
+        <Footer />
+      </div>
+    </>
   );
 };
 

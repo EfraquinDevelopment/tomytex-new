@@ -9,15 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@woocommerce/woocommerce-rest-api": "^1.0.1",
     "antd": "^5.20.1",
     "axios": "^1.7.3",
+    "dompurify": "^3.1.7",
     "lucide-react": "^0.436.0",
     "next": "14.2.5",
+    "nextjs-toploader": "^3.7.15",
     "react": "^18",
     "react-dom": "^18",
     "react-responsive-carousel": "^3.2.23"
   },
   "devDependencies": {
+    "@types/dompurify": "^3.0.5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
