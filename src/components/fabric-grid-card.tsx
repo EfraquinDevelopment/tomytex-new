@@ -1,7 +1,5 @@
-"use client";
-
 import { WooProduct } from "@/types/woocommerce";
-import DOMPurify from "dompurify";
+import DOMPurify from "isomorphic-dompurify";
 import Link from "next/link";
 import React from "react";
 
