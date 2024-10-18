@@ -1,4 +1,4 @@
-import ContactForm from "@/app/contacto/components/contact-form";
+import ContactForm from "@/app/(main)/contacto/components/contact-form";
 import { Mail, Phone, Clock, MapPin } from "lucide-react";
 
 const ContactInfo = () => (

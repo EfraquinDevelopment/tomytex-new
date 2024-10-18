@@ -1,4 +1,4 @@
-import HeroSection from "@/app/telas/components/hero-section";
+import HeroSection from "@/app/(main)/telas/components/hero-section";
 import FabricGrid from "@/components/fabric-grid";
 import { getWooProducts } from "@/data/woocommerce/getWooProducts";
 import { Suspense } from "react";
