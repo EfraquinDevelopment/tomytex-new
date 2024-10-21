@@ -1,3 +1,4 @@
+import FabricsSection from "@/app/(main)/telas/components/fabrics-section";
 import HeroSection from "@/app/(main)/telas/components/hero-section";
 import FabricGrid from "@/components/fabric-grid";
 import { getWooProducts } from "@/data/woocommerce/getWooProducts";
@@ -10,7 +11,7 @@ const Telas = async () => {
     <Suspense>
       <main className="isolate">
         <HeroSection />
-        <FabricGrid products={products} />
+        <FabricsSection products={products} />
       </main>
     </Suspense>
   );

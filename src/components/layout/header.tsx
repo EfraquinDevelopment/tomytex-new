@@ -1,27 +1,32 @@
 "use client";
-import React, { useState } from 'react'
-import Link from 'next/link'
-import { Menu, X } from 'lucide-react'
+import React, { useState } from "react";
+import Link from "next/link";
+import { Menu, X } from "lucide-react";
 
 const navigation = [
-  { name: 'Inicio', href: '/' },
-  { name: 'Telas', href: '/telas' },
-  { name: 'Contacto', href: '/contacto' },
-]
+  { name: "Inicio", href: "/" },
+  { name: "Telas", href: "/telas" },
+  { name: "Contacto", href: "/contacto" },
+];
 
 export default function Header() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="absolute inset-x-0 top-0 z-50">
-      <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
+    <header>
+      <nav
+        className="flex items-center justify-between p-4 lg:px-8"
+        aria-label="Global"
+      >
         <div className="flex lg:flex-1">
           <Link href="/" className="-m-1.5 p-1.5 flex items-center">
             <span className="sr-only">Tomytex</span>
             <div className="h-12 w-12 rounded-full bg-[#d91817] flex items-center justify-center">
               <span className="text-white font-bold text-2xl">T</span>
             </div>
-            <span className="ml-2 text-2xl font-bold text-[#d91817]">TOMYTEX</span>
+            <span className="ml-2 text-2xl font-bold text-[#d91817]">
+              TOMYTEX
+            </span>
           </Link>
         </div>
         <div className="flex lg:hidden">
@@ -36,13 +41,21 @@ export default function Header() {
         </div>
         <div className="hidden lg:flex lg:gap-x-12">
           {navigation.map((item) => (
-            <Link key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-gray-900 hover:text-[#d91817] transition duration-300">
+            <Link
+              key={item.name}
+              href={item.href}
+              className="text-sm font-semibold leading-6 text-gray-900 hover:text-[#d91817] transition duration-300"
+            >
               {item.name}
             </Link>
           ))}
         </div>
       </nav>
-      <div className={`lg:hidden ${mobileMenuOpen ? '' : 'hidden'}`} role="dialog" aria-modal="true">
+      <div
+        className={`lg:hidden ${mobileMenuOpen ? "" : "hidden"}`}
+        role="dialog"
+        aria-modal="true"
+      >
         <div className="fixed inset-0 z-50"></div>
         <div className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
@@ -51,7 +64,9 @@ export default function Header() {
               <div className="h-12 w-12 rounded-full bg-[#d91817] flex items-center justify-center">
                 <span className="text-white font-bold text-2xl">T</span>
               </div>
-              <span className="ml-2 text-2xl font-bold text-[#d91817]">TOMYTEX</span>
+              <span className="ml-2 text-2xl font-bold text-[#d91817]">
+                TOMYTEX
+              </span>
             </Link>
             <button
               type="button"
@@ -81,5 +96,5 @@ export default function Header() {
         </div>
       </div>
     </header>
-  )
+  );
 }

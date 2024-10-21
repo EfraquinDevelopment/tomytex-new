@@ -17,11 +17,12 @@ const FeaturedFabrics = async () => {
     <div className="bg-[#F5F5F0] py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
-          <h2 className="text-base font-semibold leading-7 text-[#d91817]">
-            Nuestras Telas
+          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+            Nuestras Telas Deportivas
           </h2>
-          <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            Descubre la excelencia en cada fibra
+          <p className="mt-2 text-lg leading-8 text-gray-600">
+            Descubre la excelencia en cada fibra, diseñada para el máximo
+            rendimiento atlético.
           </p>
         </div>
         <div className="mt-16 flow-root sm:mt-20">
