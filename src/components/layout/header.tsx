@@ -1,13 +1,9 @@
 "use client";
 import React, { useState } from "react";
 import Link from "next/link";
-import { Menu, X } from "lucide-react";
-
-const navigation = [
-  { name: "Inicio", href: "/" },
-  { name: "Telas", href: "/telas" },
-  { name: "Contacto", href: "/contacto" },
-];
+import { Menu } from "lucide-react";
+import { MENU_ITEMS } from "@/config/menu-items";
+import MobileNav from "@/components/layout/mobile-nav";
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -40,7 +36,7 @@ export default function Header() {
           </button>
         </div>
         <div className="hidden lg:flex lg:gap-x-12">
-          {navigation.map((item) => (
+          {MENU_ITEMS.map((item) => (
             <Link
               key={item.name}
               href={item.href}
@@ -51,50 +47,10 @@ export default function Header() {
           ))}
         </div>
       </nav>
-      <div
-        className={`lg:hidden ${mobileMenuOpen ? "" : "hidden"}`}
-        role="dialog"
-        aria-modal="true"
-      >
-        <div className="fixed inset-0 z-50"></div>
-        <div className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
-          <div className="flex items-center justify-between">
-            <Link href="/" className="-m-1.5 p-1.5 flex items-center">
-              <span className="sr-only">Tomytex</span>
-              <div className="h-12 w-12 rounded-full bg-[#d91817] flex items-center justify-center">
-                <span className="text-white font-bold text-2xl">T</span>
-              </div>
-              <span className="ml-2 text-2xl font-bold text-[#d91817]">
-                TOMYTEX
-              </span>
-            </Link>
-            <button
-              type="button"
-              className="-m-2.5 rounded-md p-2.5 text-gray-700"
-              onClick={() => setMobileMenuOpen(false)}
-            >
-              <span className="sr-only">Cerrar menú</span>
-              <X className="h-6 w-6" aria-hidden="true" />
-            </button>
-          </div>
-          <div className="mt-6 flow-root">
-            <div className="-my-6 divide-y divide-gray-500/10">
-              <div className="space-y-2 py-6">
-                {navigation.map((item) => (
-                  <Link
-                    key={item.name}
-                    href={item.href}
-                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                    onClick={() => setMobileMenuOpen(false)}
-                  >
-                    {item.name}
-                  </Link>
-                ))}
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <MobileNav
+        mobileMenuOpen={mobileMenuOpen}
+        setMobileMenuOpen={setMobileMenuOpen}
+      />
     </header>
   );
 }

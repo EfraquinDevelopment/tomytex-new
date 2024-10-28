@@ -1,7 +1,7 @@
 import FabricGrid from "@/components/fabric-grid";
 import { getWooProducts } from "@/data/woocommerce/getWooProducts";
 import { WooProduct } from "@/types/woocommerce";
-import { featuredFabrics } from "@/data/home.json";
+import data from "@/data/home.json";
 
 const getFilteredProducts = (products: WooProduct[], reccomended: boolean) => {
   if (reccomended) {
@@ -12,6 +12,7 @@ const getFilteredProducts = (products: WooProduct[], reccomended: boolean) => {
 };
 
 const FeaturedFabrics = async () => {
+  const { featuredFabrics } = data;
   const products = await getWooProducts({});
 
   return (

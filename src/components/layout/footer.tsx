@@ -1,9 +1,8 @@
-import { Logo } from "@/components/logo";
-import Link from "next/link";
 import React from "react";
-import { contactDetails, rightsText } from "@/data/footer.json";
+import data from "@/data/footer.json";
 
 const Footer = () => {
+  const { contactDetails, rightsText } = data;
   return (
     <footer className="bg-white">
       <div className="mx-auto max-w-7xl px-6 py-12 md:flex md:items-center md:justify-between lg:px-8">
