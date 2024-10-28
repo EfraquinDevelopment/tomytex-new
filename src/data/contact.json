@@ -1,10 +1,36 @@
 {
-    "pageTitle": "Contáctanos",
-    "contactFormTitle": "Envíanos un Mensaje",
-    "contactInformation":{
-        "title": "Información de Contacto",
-        "address": "123 Calle Principal, Ciudad Principal, 12345",
-        "phone": "123-456-7890",
-        "email": "info@tomytex.com" 
+  "hero": {
+    "title": "Contacto",
+    "description": "Estamos aquí para ayudarte. Visítanos en nuestra tienda o contáctanos para más información sobre nuestras telas deportivas de alto rendimiento.",
+    "img": {
+      "src": "/img/contact-hero.png",
+      "alt": "Fondo de telas deportivas"
     }
+  },
+  "contactInfo": {
+    "title": "Vistanos",
+    "description": "Nuestra tienda está ubicada en el corazón de la ciudad. Ven y descubre nuestras telas deportivas de primera calidad.",
+    "addressSection": {
+      "title": "Dirección",
+      "address1": "123 Calle Principal",
+      "address2": "Ciudad, País"
+    },
+    "phoneSection": {
+      "title": "Teléfono",
+      "phone1": "123-456-7890"
+    },
+    "emailSection": {
+      "title": "Email",
+      "email1": "ventas@tomytex.com"
+    },
+    "hoursSection": {
+      "title": "Horario",
+      "days": "Lunes - Viernes",
+      "hours": "9:00am - 5:00pm"
+    }
+  },
+  "mapSection": {
+    "title": "Nuestra Ubicación",
+    "description": "Encuéntranos fácilmente en el centro de Madrid. Estamos cerca de las principales líneas de transporte público."
+  }
 }
