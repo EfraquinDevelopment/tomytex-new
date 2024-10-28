@@ -1,46 +1,42 @@
 {
   "homeBanner": {
-    "title": "Descubre la Excelencia en Telas",
-    "description": "Creando Excelencia en Telas Desde 1975",
-    "buttonText": "Explora Nuestras Telas"
-  },
-  "fabricsSection": {
-    "title": "Nuestras Telas",
-    "buttonText": "Ver Todas las Telas",
-    "fabrics": [
-      {
-        "id": 1,
-        "name": "Algodón",
-        "description": "Telas de algodon premium para una calidad y comodidad inigualables.",
-        "callToAction": "/telas",
-        "imageUrl":"/img/tomytex2.jpg",
-        "mediaType": "image"
-      },
-      {
-        "id": 2,
-        "name": "Seda",
-        "description": "Telas de seda de la más alta calidad para un toque de lujo en tus prendas.",
-        "imageUrl":"/img/tomytex2.jpg",
-        "callToAction": "/telas",
-        "mediaType": "image"
-      },
-      {
-        "id": 3,
-        "name": "Lino",
-        "description": "Telas de lino de la mejor calidad para un look fresco y elegante.",
-        "imageUrl":"/img/tomytex2.jpg",
-        "callToAction": "/telas",
-        "mediaType": "image"
-      }
-    ]
+    "title": "Telas deportivas de alto rendimiento en",
+    "titleHighlight": "Tomytex",
+    "img": {
+      "src": "/img/banner-test.png",
+      "alt": "Tela deportiva de alto rendimiento"
+    },
+    "description": "Descubre nuestra gama de telas innovadoras diseñadas para atletas y entusiastas del fitness. Rendimiento, comodidad y estilo en cada fibra.",
+    "buttonText": "Ver Catalogo"
   },
   "ourHistory": {
     "title": "Nuestra Historia",
-    "description": "Desde 1975, Tomytex ha estado a la vanguardia de la innovación en telas. Lo que comenzó como un pequeño taller textil familiar se ha convertido en un nombre respetado en la industria, conocido por nuestro compromiso con la calidad y la sostenibilidad."
+    "subtitle": "TOMYTEX: Tejiendo sueños deportivos desde 1975",
+    "description": "TOMYTEX nació como un pequeño negocio familiar con una gran pasión por las telas deportivas. A lo largo de los años, hemos evolucionado para satisfacer las demandas cambiantes de los atletas y entusiastas del fitness, manteniendo siempre nuestro compromiso con la calidad y la innovación.",
+    "storyFeatures": [
+      {
+        "name": "Innovación",
+        "description": "Constantemente desarrollamos nuevas telas para mejorar el rendimiento deportivo."
+      },
+      {
+        "name": "Calidad",
+        "description": "Utilizamos los mejores materiales y procesos para garantizar la durabilidad de nuestras telas."
+      },
+      {
+        "name": "Sostenibilidad",
+        "description": "Nos comprometemos con prácticas sostenibles en toda nuestra cadena de producción."
+      }
+    ],
+    "imageDescription": "Innovación en cada fibra"
   },
+  "featuredFabrics": {
+    "title": "Nuestras Telas Deportivas",
+    "description": "Descubre la excelencia en cada fibra, diseñada para el máximo rendimiento atlético."
+  },
+
   "contactUs": {
-    "title": "Contáctanos",
-    "buttonText": "Ver Contacto",
-    "description": "¿Tienes preguntas sobre nuestras telas o servicios? ¡Estamos aquí para ayudarte!"
+    "title": "Contáctanos en TOMYTEX",
+    "description": "Estamos aquí para ayudarte a encontrar la tela perfecta para tu próximo proyecto creativo.",
+    "buttonText": "Contáctanos ahora"
   }
 }

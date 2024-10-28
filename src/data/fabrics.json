@@ -1,0 +1,14 @@
+{
+  "hero": {
+    "title": "Telas Deportivas de Alto Rendimiento",
+    "description": "Descubre nuestra gama de telas innovadoras diseñadas para atletas y entusiastas del fitness. Rendimiento, comodidad y estilo en cada fibra.",
+    "img": {
+      "src": "/img/telas-banner.png",
+      "alt": "Atletas corriendo"
+    }
+  },
+  "fabricsSection": {
+    "title": "Nuestras Telas",
+    "description": "Explora nuestra selección de telas diseñadas para potenciar tu rendimiento deportivo."
+  }
+}

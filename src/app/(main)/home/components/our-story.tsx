@@ -1,5 +1,6 @@
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
+import { ourHistory } from "@/data/home.json";
 
 const OurStory = () => (
   <div className="overflow-hidden bg-white py-24 sm:py-32">
@@ -8,36 +9,16 @@ const OurStory = () => (
         <div className="lg:pr-8 lg:pt-4">
           <div className="lg:max-w-lg">
             <h2 className="text-base font-semibold leading-7 text-red-600">
-              Nuestra Historia
+              {ourHistory.title}
             </h2>
             <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-              TOMYTEX: Tejiendo sueños deportivos desde 1975
+              {ourHistory.subtitle}
             </p>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              TOMYTEX nació como un pequeño negocio familiar con una gran pasión
-              por las telas deportivas. A lo largo de los años, hemos
-              evolucionado para satisfacer las demandas cambiantes de los
-              atletas y entusiastas del fitness, manteniendo siempre nuestro
-              compromiso con la calidad y la innovación.
+              {ourHistory.description}
             </p>
             <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
-              {[
-                {
-                  name: "Innovación",
-                  description:
-                    "Constantemente desarrollamos nuevas telas para mejorar el rendimiento deportivo.",
-                },
-                {
-                  name: "Calidad",
-                  description:
-                    "Utilizamos los mejores materiales y procesos para garantizar la durabilidad de nuestras telas.",
-                },
-                {
-                  name: "Sostenibilidad",
-                  description:
-                    "Nos comprometemos con prácticas sostenibles en toda nuestra cadena de producción.",
-                },
-              ].map((feature) => (
+              {ourHistory.storyFeatures.map((feature) => (
                 <div key={feature.name} className="relative pl-9">
                   <dt className="inline font-semibold text-gray-900">
                     <ArrowRight
@@ -65,7 +46,7 @@ const OurStory = () => (
           <div className="absolute inset-0 -z-10 rounded-2xl ring-1 ring-inset ring-gray-900/10" />
           <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black">
             <h3 className="text-xl font-semibold text-white">
-              Innovación en cada fibra
+              {ourHistory.imageDescription}
             </h3>
           </div>
         </div>

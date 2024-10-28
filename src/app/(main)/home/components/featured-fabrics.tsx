@@ -1,6 +1,7 @@
 import FabricGrid from "@/components/fabric-grid";
 import { getWooProducts } from "@/data/woocommerce/getWooProducts";
 import { WooProduct } from "@/types/woocommerce";
+import { featuredFabrics } from "@/data/home.json";
 
 const getFilteredProducts = (products: WooProduct[], reccomended: boolean) => {
   if (reccomended) {
@@ -18,11 +19,10 @@ const FeaturedFabrics = async () => {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            Nuestras Telas Deportivas
+            {featuredFabrics.title}
           </h2>
           <p className="mt-2 text-lg leading-8 text-gray-600">
-            Descubre la excelencia en cada fibra, diseñada para el máximo
-            rendimiento atlético.
+            {featuredFabrics.description}
           </p>
         </div>
         <div className="mt-16 flow-root sm:mt-20">
