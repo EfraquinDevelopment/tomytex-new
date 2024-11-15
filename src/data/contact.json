@@ -19,9 +19,10 @@
       "title": "Teléfono",
       "phone1": "123-456-7890"
     },
-    "emailSection": {
-      "title": "Email",
-      "email1": "ventas@tomytex.com"
+    "whatsAppSection": {
+      "title": "WhatsApp",
+      "phone": "+54 9 11-3934-8575",
+      "link": "https://wa.me/message/4AQMDTX5C6VWF1"
     },
     "hoursSection": {
       "title": "Horario",

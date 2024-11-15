@@ -1,5 +1,6 @@
-import { Mail, Phone, Clock, MapPin } from "lucide-react";
+import { Phone, Clock, MapPin } from "lucide-react";
 import { contactInfo } from "@/data/contact.json";
+import { FaWhatsapp } from "react-icons/fa";
 
 const ContactInfo = () => (
   <div className="bg-white py-24 sm:py-32">
@@ -32,7 +33,11 @@ const ContactInfo = () => (
               </h3>
               <dl className="mt-3 space-y-1 text-sm leading-6 text-gray-600">
                 <dd>
-                  <a className="hover:text-red-600" href="tel:+34912345678">
+                  <a
+                    className="hover:text-red-600 underline"
+                    href="tel:+34912345678"
+                    target="_blank"
+                  >
                     {contactInfo.phoneSection.phone1}
                   </a>
                 </dd>
@@ -40,16 +45,17 @@ const ContactInfo = () => (
             </div>
             <div className="rounded-2xl bg-gray-50 p-10">
               <h3 className="text-base font-semibold leading-7 text-gray-900">
-                <Mail className="h-6 w-6 text-red-600 mb-2" />
-                {contactInfo.emailSection.title}
+                <FaWhatsapp className="h-6 w-6 text-red-600 mb-2" />
+                {contactInfo.whatsAppSection.title}
               </h3>
               <dl className="mt-3 space-y-1 text-sm leading-6 text-gray-600">
                 <dd>
                   <a
-                    className="hover:text-red-600"
+                    className="hover:text-red-600 underline"
                     href="mailto:ventas@tomytex.com"
+                    target="_blank"
                   >
-                    {contactInfo.emailSection.email1}
+                    {contactInfo.whatsAppSection.phone}
                   </a>
                 </dd>
               </dl>
