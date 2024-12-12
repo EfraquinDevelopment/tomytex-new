@@ -8,26 +8,26 @@
     }
   },
   "contactInfo": {
-    "title": "Vistanos",
-    "description": "Nuestra tienda está ubicada en el corazón de la ciudad. Ven y descubre nuestras telas deportivas de primera calidad.",
+    "title": "Visitanos",
+    "description": "Te esperamos en nuestro local para que puedas conocer y aprecias todas nuestras telas y colores.",
     "addressSection": {
       "title": "Dirección",
-      "address1": "123 Calle Principal",
-      "address2": "Ciudad, País"
+      "address1": "Azcuenaga 549",
+      "address2": "CABA, Argentina"
     },
     "phoneSection": {
       "title": "Teléfono",
-      "phone1": "123-456-7890"
+      "phone1": "49638510"
     },
     "whatsAppSection": {
       "title": "WhatsApp",
-      "phone": "+54 9 11-3934-8575",
+      "phone": "+54 9 1139348575",
       "link": "https://wa.me/message/4AQMDTX5C6VWF1"
     },
     "hoursSection": {
       "title": "Horario",
       "days": "Lunes - Viernes",
-      "hours": "9:00am - 5:00pm"
+      "hours": "9:00hs - 17:00hs"
     }
   },
   "mapSection": {
