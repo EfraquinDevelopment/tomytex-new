@@ -6,37 +6,24 @@
       "src": "/img/banner-test.png",
       "alt": "Tela deportiva de alto rendimiento"
     },
-    "description": "Descubre nuestra gama de telas innovadoras diseñadas para atletas y entusiastas del fitness. Rendimiento, comodidad y estilo en cada fibra.",
+    "description": "Descubri nuestra gran variedad de articulos para darle el mayor salto de calidad a tu producción.",
     "buttonText": "Ver Catalogo"
   },
   "ourHistory": {
     "title": "Nuestra Historia",
-    "subtitle": "TOMYTEX: Tejiendo sueños deportivos desde 1975",
-    "description": "TOMYTEX nació como un pequeño negocio familiar con una gran pasión por las telas deportivas. A lo largo de los años, hemos evolucionado para satisfacer las demandas cambiantes de los atletas y entusiastas del fitness, manteniendo siempre nuestro compromiso con la calidad y la innovación.",
-    "storyFeatures": [
-      {
-        "name": "Innovación",
-        "description": "Constantemente desarrollamos nuevas telas para mejorar el rendimiento deportivo."
-      },
-      {
-        "name": "Calidad",
-        "description": "Utilizamos los mejores materiales y procesos para garantizar la durabilidad de nuestras telas."
-      },
-      {
-        "name": "Sostenibilidad",
-        "description": "Nos comprometemos con prácticas sostenibles en toda nuestra cadena de producción."
-      }
-    ],
+    "subtitle": "Bienvenido a Tomytex",
+    "description": "Somos una textil especializada en venta de telas deportivas de alta calidad para confeccionar ropa deportiva y tambien colegial.",
+    "description2": "Siendo 4 generaciones en el rubro textil, contamos con una gran experiencia y conocimiento en desarrollar y mejorar las telas y los colores para garantizar los máximos estándares en el producto terminado.",
     "imageDescription": "Innovación en cada fibra"
   },
   "featuredFabrics": {
-    "title": "Nuestras Telas Deportivas",
-    "description": "Descubre la excelencia en cada fibra, diseñada para el máximo rendimiento atlético."
+    "title": "Nuestras Telas",
+    "description": "Accede a toda la informacion sobre nuestras telas para elegir lo que mejor se adapte a tu necesidad."
   },
 
   "contactUs": {
     "title": "Contáctanos en TOMYTEX",
-    "description": "Estamos aquí para ayudarte a encontrar la tela perfecta para tu próximo proyecto creativo.",
+    "description": "Estamos aca para ayudarte a encontrar la tela perfecta para tu próximo proyecto creativo.",
     "buttonText": "Contáctanos ahora"
   }
 }

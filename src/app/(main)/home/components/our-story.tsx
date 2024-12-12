@@ -19,21 +19,9 @@ const OurStory = () => {
               <p className="mt-6 text-lg leading-8 text-gray-600">
                 {ourHistory.description}
               </p>
-              <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
-                {ourHistory.storyFeatures.map((feature) => (
-                  <div key={feature.name} className="relative pl-9">
-                    <dt className="inline font-semibold text-gray-900">
-                      <ArrowRight
-                        className="absolute left-1 top-1 h-5 w-5 text-red-600"
-                        aria-hidden="true"
-                      />
-                      {feature.name}
-                      {": "}
-                    </dt>
-                    <dd className="inline">{feature.description}</dd>
-                  </div>
-                ))}
-              </dl>
+              <p className="mt-6 text-lg leading-8 text-gray-600">
+                {ourHistory.description2}
+              </p>
             </div>
           </div>
           <div className="relative isolate overflow-hidden rounded-2xl bg-gray-900">
