@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Menu } from "lucide-react";
 import { MENU_ITEMS } from "@/config/menu-items";
 import MobileNav from "@/components/layout/mobile-nav";
+import Image from "next/image";
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);

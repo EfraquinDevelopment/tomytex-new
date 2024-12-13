@@ -31,7 +31,6 @@
     }
   },
   "mapSection": {
-    "title": "Nuestra Ubicación",
-    "description": "Encuéntranos fácilmente en el centro de Madrid. Estamos cerca de las principales líneas de transporte público."
+    "title": "Nuestra Ubicación"
   }
 }

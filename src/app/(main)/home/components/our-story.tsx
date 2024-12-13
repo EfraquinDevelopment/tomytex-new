@@ -26,7 +26,7 @@ const OurStory = () => {
           </div>
           <div className="relative isolate overflow-hidden rounded-2xl bg-gray-900">
             <Image
-              src="/img/our-story.png"
+              src="/img/real2.jpg"
               alt="Telas deportivas"
               className="absolute inset-0 -z-10 h-full w-full object-cover"
               width={1470}

@@ -7,13 +7,10 @@ const LocationMap = () => (
         <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
           {mapSection.title}
         </h2>
-        <p className="mt-6 text-lg leading-8 text-gray-600">
-          {mapSection.description}
-        </p>
       </div>
       <div className="mt-16 rounded-lg overflow-hidden">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.6597245423915!2d-3.7037974!3d40.4167754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422997800a3c81%3A0xc436dec1618c2269!2zUHVlcnRhIGRlbCBTb2wsIE1hZHJpZCwgRXNwYcOxYQ!5e0!3m2!1ses!2s!4v1652795211159!5m2!1ses!2s"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.0503040318135!2d-58.40331882350354!3d-34.60288945745573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca93527c1a19%3A0xe06b71b3e5fb927!2sAzcu%C3%A9naga%20549%2C%20C1029AAK%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1734095905717!5m2!1ses-419!2sar"
           width="100%"
           height="450"
           style={{ border: 0 }}
