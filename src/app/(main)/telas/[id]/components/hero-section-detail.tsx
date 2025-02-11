@@ -12,6 +12,7 @@ const HeroSectionDetail = ({ product }: Props) => {
   const sanitizedDescription = DOMPurify.sanitize(product.description, {
     ALLOWED_TAGS: [],
   });
+  console.log(product);
 
   return (
     <div className="relative pt-14">

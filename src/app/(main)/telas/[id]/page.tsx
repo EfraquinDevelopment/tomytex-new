@@ -1,6 +1,5 @@
 import FabricFeatures from "@/app/(main)/telas/[id]/components/fabric-features";
 import HeroSectionDetail from "@/app/(main)/telas/[id]/components/hero-section-detail";
-import RecommendedUses from "@/app/(main)/telas/[id]/components/recommended-uses";
 import { getWooProduct } from "@/data/woocommerce/getWooProduct";
 import { Metadata } from "next";
 import React, { Suspense } from "react";
@@ -16,8 +15,7 @@ const TelaDetail = async ({ params: { id } }: { params: { id: string } }) => {
     <Suspense>
       <main className="isolate">
         <HeroSectionDetail product={product} />
-        <FabricFeatures />
-        <RecommendedUses />
+        <FabricFeatures product={product} />
       </main>
     </Suspense>
   );
