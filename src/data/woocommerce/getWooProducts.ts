@@ -18,7 +18,7 @@ export async function getWooProducts({
   const orderDirection = orderOption?.orderDirection ?? "asc";
 
   // Construct the endpoint manually with parameters
-  let endpoint = `products?orderby=${orderBy}&order=${orderDirection}&t=${timestamp}`;
+  let endpoint = `products?orderby=${orderBy}&order=${orderDirection}&t=${timestamp}&per_page=100`;
 
   if (category) {
     endpoint += `&category=${category}`;
