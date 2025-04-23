@@ -14,7 +14,7 @@ const FabricGridCard = (product: WooProduct) => {
       className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl bg-gray-900 px-8 pb-8 pt-80 sm:pt-48 lg:pt-80"
     >
       <Image
-        src={product.images[0].src}
+        src={product.images[0]?.src}
         alt={product.name}
         className="absolute inset-0 -z-10 h-full w-full object-cover"
         width={500}
