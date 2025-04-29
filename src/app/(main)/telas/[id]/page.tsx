@@ -62,4 +62,6 @@ export const generateMetadata = async ({
   };
 };
 
+export const dynamic = "force-dynamic";
+
 export default TelaDetail;

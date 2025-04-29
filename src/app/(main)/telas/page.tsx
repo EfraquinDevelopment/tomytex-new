@@ -5,6 +5,8 @@ import { Suspense } from "react";
 import data from "@/data/fabrics.json";
 import { Metadata } from "next";
 
+export const dynamic = "force-dynamic";
+
 const Telas = async () => {
   const products = await getWooProducts({});
 

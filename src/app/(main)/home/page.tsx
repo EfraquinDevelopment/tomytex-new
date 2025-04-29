@@ -5,6 +5,8 @@ import OurStory from "@/app/(main)/home/components/our-story";
 import { Metadata } from "next";
 import data from "@/data/home.json";
 
+export const dynamic = "force-dynamic";
+
 export default function MainPage() {
   return (
     <div className="isolate">
